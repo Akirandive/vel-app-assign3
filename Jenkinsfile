@@ -21,7 +21,7 @@ pipeline{
             steps{
                   sh"sudo yum install httpd -y"
                   sh"sudo service httpd start "
-                  sh "sudo cp /mnt/assign3/23Q1/index.html /var/www/html/"
+                  sh "sudo cp /mnt/assign3/vel-app-assign3/index.html /var/www/html/"
                   sh "sudo chmod -R 777 /var/www/html/"
                }
           }
